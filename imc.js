@@ -24,7 +24,7 @@ input.question("Qual o peso ?", (pesoDigitado) => {
             console.log(resultado + " ( peso ideal )")
         }
         else if(resultado >= 25.0 && resultado <= 29.9 ) {
-            console.log(resultado + " ( peso ideal )")
+            console.log(resultado + " ( levemente acima do peso )")
         }
 
         // finalizar as condições
